@@ -1,0 +1,80 @@
+/* Sticky note widget styles */
+/* Title bar styles */
+.sticky-note-title-bar {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+}
+
+.sticky-note-title-bar QLabel {
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* Content area styles */
+.sticky-note-content {
+    background-color: white;
+}
+
+.sticky-note-content QTextEdit {
+    border: none;
+    background-color: transparent;
+    font-family: monospace;
+}
+
+.sticky-note-line-numbers {
+    background-color: #f8f8f8;
+    border: none;
+    border-right: 1px solid #ddd;
+    color: #666;
+    font-family: monospace;
+}
+
+/* Info bar styles */
+.sticky-note-info-bar {
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+    font-size: 10px;
+    color: #666;
+}
+
+/* Control button styles for sticky notes */
+.sticky-note-control-button {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 2px;
+    font-size: 10px;
+}
+
+.sticky-note-control-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.sticky-note-control-button:pressed {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Color palette for sticky notes */
+.sticky-note-color-yellow {
+    background-color: #fff9c4;
+}
+
+.sticky-note-color-blue {
+    background-color: #e3f2fd;
+}
+
+.sticky-note-color-green {
+    background-color: #e8f5e8;
+}
+
+.sticky-note-color-pink {
+    background-color: #fce4ec;
+}
+
+.sticky-note-color-orange {
+    background-color: #fff3e0;
+}
+
+.sticky-note-color-purple {
+    background-color: #f3e5f5;
+}

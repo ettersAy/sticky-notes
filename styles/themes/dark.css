@@ -1,0 +1,117 @@
+/* Dark theme styles */
+QMainWindow {
+    background-color: #2d2d2d;
+}
+
+QWidget {
+    background-color: #3c3c3c;
+    color: #ffffff;
+}
+
+QPushButton {
+    background-color: #5a5a5a;
+    border: 1px solid #666666;
+    color: #ffffff;
+}
+
+QPushButton:hover {
+    background-color: #6a6a6a;
+}
+
+QPushButton:pressed {
+    background-color: #4a4a4a;
+}
+
+QLineEdit, QTextEdit {
+    background-color: #2d2d2d;
+    border: 1px solid #555555;
+    color: #ffffff;
+}
+
+QLineEdit:focus, QTextEdit:focus {
+    border-color: #0078d4;
+}
+
+QListWidget {
+    background-color: #2d2d2d;
+    border: 1px solid #555555;
+    color: #ffffff;
+}
+
+QListWidget::item {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+QListWidget::item:selected {
+    background-color: #1e3a5f;
+    color: #ffffff;
+}
+
+QListWidget::item:hover {
+    background-color: #3c3c3c;
+}
+
+QComboBox {
+    background-color: #2d2d2d;
+    border: 1px solid #555555;
+    color: #ffffff;
+}
+
+QSplitter::handle {
+    background-color: #555555;
+}
+
+/* Sticky note specific dark theme */
+.sticky-note-title-bar {
+    background-color: #404040;
+    border-bottom: 1px solid #555555;
+    color: #ffffff;
+}
+
+.sticky-note-info-bar {
+    background-color: #404040;
+    border-top: 1px solid #555555;
+    color: #cccccc;
+}
+
+/* Sticky note content area in dark theme */
+.sticky-note-content {
+    background-color: #2d2d2d;
+}
+
+.sticky-note-content QTextEdit {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+.sticky-note-line-numbers {
+    background-color: #404040;
+    border-right: 1px solid #555555;
+    color: #cccccc;
+}
+
+/* Color palette for sticky notes in dark theme */
+.sticky-note-color-yellow {
+    background-color: #4d4200;
+}
+
+.sticky-note-color-blue {
+    background-color: #003366;
+}
+
+.sticky-note-color-green {
+    background-color: #1a331a;
+}
+
+.sticky-note-color-pink {
+    background-color: #4d1933;
+}
+
+.sticky-note-color-orange {
+    background-color: #663300;
+}
+
+.sticky-note-color-purple {
+    background-color: #330033;
+}
